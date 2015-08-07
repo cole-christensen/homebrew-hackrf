@@ -2,8 +2,10 @@ require 'formula'
 
 class Bladerf < Formula
   homepage 'http://wiki.spench.net/wiki/Gr-baz'
-  url 'https://github.com/Nuand/bladeRF.git', :tag => '2015.02'
-  revision '2'
+  url 'https://github.com/Nuand/bladeRF.git',
+    :tag => 'libbladeRF_v1.4.3',
+    :revision => '60714d7f61f5783bb82d3b14d1b9d742334d4769'
+  revision 3
 
   depends_on 'cmake' => :build
 
